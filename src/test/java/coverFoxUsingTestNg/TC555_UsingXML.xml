@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="Url" value="https://www.coverfox.com/"></parameter>
+  <test thread-count="5" name="Test1">
+	  <parameter name="age" value="32"></parameter>
+	  <parameter name="pincode" value="443001"></parameter>
+	  <parameter name="Mnumber" value="9403599094"></parameter>
+    <classes>
+      <class name="coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies_XML"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+	  <parameter name="age" value="26"></parameter>
+	  <parameter name="pincode" value="443002"></parameter>
+	  <parameter name="Mnumber" value="7057774212"></parameter>
+    <classes>
+      <class name="coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies_XML"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+	  <parameter name="age" value="30"></parameter>
+	  <parameter name="pincode" value="400001"></parameter>
+	  <parameter name="Mnumber" value="9403599094"></parameter>
+    <classes>
+      <class name="coverFoxUsingTestNg.CF_TC555_Validate_search_results_for_healthcare_policies_XML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

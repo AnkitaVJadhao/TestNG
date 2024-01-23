@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	  <test thread-count="5" name="Test1">
+	  <parameter name="bname" value="chrome"></parameter>
+	  <parameter name="fname" value="Ankita"></parameter>
+	  <parameter name="lname" value="Jadhao"></parameter>
+	  <parameter name="mnumber" value="9403599094"></parameter>
+    <classes>
+      <class name="crossBrowsing.CrossBrowsing_Study"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test2">
+	<parameter name="bname" value="firefox"></parameter>
+	  <parameter name="fname" value="Ankita1"></parameter>
+	  <parameter name="lname" value="Jadhao1"></parameter>
+	  <parameter name="mnumber" value="9403599094"></parameter>
+    <classes>
+      <class name="crossBrowsing.CrossBrowsing_Study"/>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="Test3">
+	  <parameter name="bname" value="edge"></parameter>
+	  <parameter name="fname" value="Ankita1"></parameter>
+	  <parameter name="lname" value="Jadhao1"></parameter>
+	  <parameter name="mnumber" value="9403599094"></parameter>
+    <classes>
+      <class name="crossBrowsing.CrossBrowsing_Study"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

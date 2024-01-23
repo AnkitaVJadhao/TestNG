@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="fName" value="Ankita"/>
+	  <parameter name="lName" value="Jadhao"/>
+	  <parameter name="mName" value="9403599094"/>
+    <classes>
+      <class name="DataProvider_Study.FBAccountForm_UsingXML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
